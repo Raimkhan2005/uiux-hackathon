@@ -16,7 +16,7 @@ import { ShoppingCart } from "lucide-react";
 const MiddleSection = () => {
   return (
     <main>
-      <div className="w-fit h-[461px] top-[1270px]">
+      <div className="w-fit h-[461px] top-[1270px] ">
         <div className="flex justify-around">
           <Image src={Zapier} alt="" width={85} height={87} />
           <Image src={Logo3} alt="" width={107} height={109} />
@@ -39,11 +39,10 @@ const MiddleSection = () => {
             <p className="text-[#007580] font-normal text-[16px] leading-[20.8px]">
               Library Stool Chair
             </p>
-            <p className="flex justify-between">$20
+            <p>$20</p>
               <div className=" bg-[#007580] text-white rounded-xl w-[44px] h-[44px] p-[10px]">
               <ShoppingCart/>
                </div>
-            </p>
           </div>
 
           <div>
@@ -51,11 +50,10 @@ const MiddleSection = () => {
             <p className="text-[#007580] font-normal text-[16px] leading-[20.8px]">
               Library Stool Chair
             </p>
-            <p className="flex justify-between">$20
+            <p>$20</p>
             <div className=" bg-[#F0F2F3] rounded-xl w-[44px] h-[44px] p-[10px]">
               <ShoppingCart/>
                </div>
-            </p>
           </div>
 
           <div>
@@ -63,11 +61,10 @@ const MiddleSection = () => {
             <p className="text-[#007580] font-normal text-[16px] leading-[20.8px]">
               Library Stool Chair
             </p>
-            <p className="flex justify-between">$20
+            <p>$20</p>
             <div className=" bg-[#F0F2F3] rounded-xl w-[44px] h-[44px] p-[10px]">
               <ShoppingCart/>
                </div>
-            </p>
           </div>
 
           <div>
@@ -75,11 +72,11 @@ const MiddleSection = () => {
             <p className="text-[#007580] font-normal text-[16px] leading-[20.8px]">
               Library Stool Chair
             </p>
-            <p className="flex justify-between">$20
-            <div className=" bg-[#F0F2F3] rounded-xl w-[44px] h-[44px] p-[10px]">
-              <ShoppingCart/>
+            <p>$20</p>
+            <div className="bg-[#F0F2F3] rounded-xl w-[44px] h-[44px] p-[10px]">
+              <ShoppingCart />
                </div>
-            </p>
+            
           </div>
         </div>
       </div>
