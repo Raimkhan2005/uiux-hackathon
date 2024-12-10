@@ -36,47 +36,45 @@ const MiddleSection = () => {
         <div className="flex mt-[84px] mx-4 gap-[24px]">
           <div>
             <Image src={image} alt="" width={312} height={312} />
-            <p className="text-[#007580] font-normal text-[16px] leading-[20.8px]">
+            <p className="text-[#007580] font-normal text-[16px] leading-[20.8px] mt-[14px]">
               Library Stool Chair
             </p>
-            <p>$20</p>
-              <div className=" bg-[#007580] text-white rounded-xl w-[44px] h-[44px] p-[10px]">
-              <ShoppingCart/>
-               </div>
+          <div className="flex space-x-60 ">
+            <p className="mt-[10px]">$20</p>
+            <ShoppingCart className="bg-[#007580] text-white rounded-xl w-[44px] h-[44px] p-[10px]"/>
+            </div>
           </div>
 
           <div>
             <Image src={image2} alt="" width={312} height={312} />
-            <p className="text-[#007580] font-normal text-[16px] leading-[20.8px]">
+            <p className="text-[#007580] font-normal text-[16px] leading-[20.8px] mt-[14px]">
               Library Stool Chair
             </p>
-            <p>$20</p>
-            <div className=" bg-[#F0F2F3] rounded-xl w-[44px] h-[44px] p-[10px]">
-              <ShoppingCart/>
-               </div>
+            <div className="flex space-x-60 ">
+            <p className="mt-[10px]">$20</p>
+            <ShoppingCart className="bg-[#F0F2F3] rounded-xl w-[44px] h-[44px] p-[10px]"/>
+            </div>
           </div>
-
+           
           <div>
-            <Image src={image3} alt="" width={312} height={312} />
-            <p className="text-[#007580] font-normal text-[16px] leading-[20.8px]">
-              Library Stool Chair
-            </p>
-            <p>$20</p>
-            <div className=" bg-[#F0F2F3] rounded-xl w-[44px] h-[44px] p-[10px]">
-              <ShoppingCart/>
-               </div>
+             <Image src={image3} alt="" width={312} height={312} />
+             <p className="text-[#007580] font-normal text-[16px] leading-[20.8px] mt-[14px]">
+              Library Stool Chair</p>
+              <div className="flex space-x-60">
+             <p className="mt-[10px]">$20</p>
+              <ShoppingCart className="bg-[#F0F2F3] rounded-xl w-[44px] h-[44px] p-[10px]"/>
+              </div>
           </div>
 
           <div>
             <Image src={image4} alt="" width={312} height={312} />
-            <p className="text-[#007580] font-normal text-[16px] leading-[20.8px]">
-              Library Stool Chair
-            </p>
-            <p>$20</p>
-            <div className="bg-[#F0F2F3] rounded-xl w-[44px] h-[44px] p-[10px]">
-              <ShoppingCart />
-               </div>
-            
+            <p className="text-[#007580] font-normal text-[16px] leading-[20.8px] mt-[14px]">Library Stool Chair</p>
+            <div className="flex space-x-60">
+            <p className="mt-[10px]">$20</p>
+            <ShoppingCart className="bg-[#F0F2F3] rounded-xl w-[44px] h-[44px] p-[10px]"/>
+            <div/>
+
+          </div>
           </div>
         </div>
       </div>
