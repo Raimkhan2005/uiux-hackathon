@@ -7,7 +7,7 @@ import Logo5 from "@/app/asset/Logo5.png";
 import Logo6 from "@/app/asset/Logo6.png";
 import Logo7 from "@/app/asset/Logo7.png";
 import Logo8 from "@/app/asset/Logo8.png";
-import image from "../../../public/Image.png";
+import image1 from "../../../public/Image1.png";
 import image2 from "../../../public/Image2.png";
 import image3 from "../../../public/image3.png";
 import image4 from "../../../public/image4.png";
@@ -39,7 +39,7 @@ const MiddleSection = () => {
 
         <div className="flex mt-[84px] mx-4 gap-[24px]">
           <div>
-            <Image src={image} alt="" width={312} height={312} />
+            <Image src={image1} alt="" width={312} height={312} />
             <p className="text-[#007580] font-normal text-[16px] leading-[20.8px] mt-[14px]">
               Library Stool Chair
             </p>
