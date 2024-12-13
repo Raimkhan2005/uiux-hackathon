@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav>
-      <div className="flex justify-between bg-[#FFFFFF] w-auto h-[74px] pb-[14px] pl-[300px] pr-[300px] pt-[14px]">
+      <div className="flex justify-between bg-[#FFFFFF] w-full h-[74px] pb-[14px] pl-[300px] pr-[300px] pt-[14px]">
         <div className="flex items-center  space-x-5 ">
           <Link
             href="/home"

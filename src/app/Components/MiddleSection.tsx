@@ -12,11 +12,15 @@ import image2 from "../../../public/Image2.png";
 import image3 from "../../../public/image3.png";
 import image4 from "../../../public/image4.png";
 import { ShoppingCart } from "lucide-react";
+import Image5 from "../../../public/Image5.png"
+import Image6 from "../../../public/Image6.png"
+import Image7 from "../../../public/Image7.png"
+import Link from "next/link";
 
 const MiddleSection = () => {
   return (
     <main>
-      <div className="w-fit h-[461px] top-[1270px] ">
+      <div className="w-full h-[461px] top-[1270px] ">
         <div className="flex justify-around">
           <Image src={Zapier} alt="" width={85} height={87} />
           <Image src={Logo3} alt="" width={107} height={109} />
@@ -27,8 +31,8 @@ const MiddleSection = () => {
           <Image src={Logo8} alt="" width={84} height={87} />
         </div>
 
-        <div className="ml-[100px]">
-          <h1 className="w-[286px] h-[35px] text-[#272343] font-semibold text-[32px] leading-[35.2px] text-right ">
+        <div className="ml-[45px]">
+          <h1 className="w-[286px] h-[35px] text-[#272343] font-semibold text-[32px] leading-[35.2px] ">
             Featured Products
           </h1>
         </div>
@@ -39,7 +43,7 @@ const MiddleSection = () => {
             <p className="text-[#007580] font-normal text-[16px] leading-[20.8px] mt-[14px]">
               Library Stool Chair
             </p>
-          <div className="flex space-x-60 ">
+            <div className="flex space-x-60 ">
             <p className="mt-[10px]">$20</p>
             <ShoppingCart className="bg-[#007580] text-white rounded-xl w-[44px] h-[44px] p-[10px]"/>
             </div>
@@ -61,7 +65,7 @@ const MiddleSection = () => {
              <p className="text-[#007580] font-normal text-[16px] leading-[20.8px] mt-[14px]">
               Library Stool Chair</p>
               <div className="flex space-x-60">
-             <p className="mt-[10px]">$20</p>
+              <p className="mt-[10px]">$20</p>
               <ShoppingCart className="bg-[#F0F2F3] rounded-xl w-[44px] h-[44px] p-[10px]"/>
               </div>
           </div>
@@ -73,10 +77,69 @@ const MiddleSection = () => {
             <p className="mt-[10px]">$20</p>
             <ShoppingCart className="bg-[#F0F2F3] rounded-xl w-[44px] h-[44px] p-[10px]"/>
             <div/>
+          </div>
 
           </div>
-          </div>
         </div>
+
+        <div className="w-full h-[508px] mt-[136px]">
+
+          <h1 className="text-[32px] leading-[35.2px] text-[#272343] ml-[45px]">Top categories</h1>
+
+          <div className=" mt-[44px] flex justify-between mx-4">
+            
+            <div className="group relative overflow-hidden rounded-lg hover:shadow-lg transition-shadown">
+             <Image src={Image5} alt="" width={424} height={424}
+             className="object-cover w-full"
+             />
+
+          
+            <div className="absolute bottom-0 p-4 text-white bg-[#000000B2]  w-[424px] h-[85px] to-transparent ">
+             <h3 className="">Wing Chair</h3>
+             <p className="">3,584 Products</p>
+             </div> 
+
+            </div>
+
+            <div className="group relative overflow-hidden rounded-lg hover:shadow-lg transition-shadown">
+             <Image src={Image6} alt="" width={424} height={424}
+             className="object-cover w-full" 
+             />
+
+          
+            <div className="absolute bottom-0 p-4 text-white bg-[#000000B2]  w-[424px] h-[85px] to-transparent ">
+             <h3 className="">Wooden chair</h3>
+             <p className="">157 Products</p>
+             </div> 
+
+            </div>
+
+            <div className=" group relative overflow-hidden rounded-lg hover:shadow-lg transition-shadown ">
+             <Image src={Image7} alt="" width={300} height={300}
+             className="object-cover w-[424px] h-[424px]" 
+             />
+
+          
+            <div className="absolute bottom-0 p-4 text-white  bg-[#000000B2] w-[424px] h-[85px] to-transparent ">
+             <h3 className="">Desk chair</h3>
+             <p className="">154 Products</p>
+             </div> 
+
+            </div>
+
+
+
+   
+
+          </div>
+          
+
+        </div>
+
+
+
+
+
       </div>
     </main>
   );
