@@ -5,9 +5,10 @@ import Navbar from './Components/Navbar'
 import HeroSection from './Components/HeroSection'
 import MiddleSection from './Components/MiddleSection'
 
+
 export default function page() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <TopHeader/>
       <Header/>
       <Navbar/>

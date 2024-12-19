@@ -7,7 +7,7 @@ import {ArrowRight } from 'lucide-react'
 export default function HeroSection() {
   return (
     <main>
-    <div className='flex bg-[#F0F2F3] w-full h-[850px] gap-x-20'>
+    <div className='flex bg-[#F0F2F3] w-full h-[850px] gap-x-20 '>
 
     <div className='pl-[70px] pt-[229px] pb-[284px]'>
       <p className='text-[#272343] w-[177px] h-[14px] font-normal text-[14px] leading-[14px] mb-[24px]'>Welcome to chairy</p>
