@@ -10,11 +10,11 @@ export default function Navbar() {
     <header>
         <div className='flex justify-between bg-[#F0F2F3] w-full h-[84px] '>
 
-            <div className='flex justify items-center pl-[300px]'>
+            <div className='flex justify items-center mx-10'>
              <Image src={Logo} alt={"logo"}/>   
             </div>
 
-            <div className='flex justify items-center pr-[300px]'>
+            <div className='flex justify items-center pr-10'>
               <Image src={Cart} alt={"card"}/>
             </div>
             
